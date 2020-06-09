@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(241, 245, 248);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*CLASE*/
+
+.wrapper {
+
+  color: #000;
+  margin: 10px auto;
+  width: 98%;
+}
+
+.container {
+    display: flex;
+  }
+
+ /*ID*/
+#header {
+  background-color: rgb(146, 152, 156) !important;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+aside {
+  min-width: 30%;
+}
+
+.related {
+  margin: 15px;
+  padding: 10px;
+}
+
+article {
+  width: 70%;
+}
+
+footer {
+  background: rgb(146, 152, 156);
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  line-height: 10px;
+}
+
+/*Header*/
+
+#header h1 {
+  margin-top: 0;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(41, 42, 43);
+  color: white;
+}
+
+/*General*/
+
+h1,
+h2,
+h3 {
+  
+  text-align: center;
+  margin:1em;
+}
+
+
+
+img{
+    max-width: 80%;
+    max-height: 300px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px ;
+margin-bottom: 10px;
+}
+
+.imgPerrito{
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+table{
+    border: 1px solid #000;
+    margin: auto;
+}
+
+th, td{
+  border: 1px solid #000;
+  padding: 0.3em;
+}
+
+.span{
+  color:red;
+}
